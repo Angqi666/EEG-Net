@@ -12,8 +12,8 @@ import matplotlib.pyplot as plt
 import time
 
 timestamp = time.strftime("%Y%m%d-%H%M%S")
-checkpoint_path = f'/egr/research-slim/liangqi1/EEG_project/EEG-classifier/EEGnet/checkpoints/model_{timestamp}.pth'
-figure_path = f'/egr/research-slim/liangqi1/EEG_project/EEG-classifier/EEGnet/figures/training_curves_{timestamp}.png'
+checkpoint_path = f'/EEGnet/checkpoints/model_{timestamp}.pth'
+figure_path = f'/EEGnet/figures/training_curves_{timestamp}.png'
 
 
 torch.cuda.empty_cache()
